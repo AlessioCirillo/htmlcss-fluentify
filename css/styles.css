@@ -10,7 +10,7 @@ body{
 /* UTILITIES */
 h2{
   font-weight: 500;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 p{
@@ -146,4 +146,30 @@ p{
   padding: 40px 15px;
   text-align: center;
   font-weight: 500;
+}
+
+/* SEZIONE INFO */
+.col3{
+  padding: 40px 20px;
+  width: calc(100%/3);
+  text-align: center;
+}
+
+.col3 img{
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.col3 h2{
+  color: #92c62f;
+  padding-bottom: 0px;
+}
+
+.col3 h2::after{
+  content: '';
+  display: block;
+  width: 60px;
+  margin: 25px auto;
+  height: 1px;
+  background: gray;
 }
