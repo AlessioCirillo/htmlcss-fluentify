@@ -8,6 +8,16 @@ body{
 }
 
 /* UTILITIES */
+h2{
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+p{
+  color: #818181;
+  line-height: 1.5;
+}
+
 .container{
   width: 1200px;
   margin: auto;
@@ -122,4 +132,18 @@ body{
   line-height: 1.3;
   font-size: 50px;
   padding-bottom: 40px;
+}
+
+/* MAIN */
+/* SEZIONE GRIGIA */
+.lightgrey{
+  background: #d3d3d3;
+}
+
+.text-firstmain{
+  width: 50%;
+  margin: auto;
+  padding: 40px 15px;
+  text-align: center;
+  font-weight: 500;
 }
