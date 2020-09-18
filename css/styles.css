@@ -29,6 +29,7 @@ li{
 li a{
   text-decoration: none;
 }
+
 .container{
   width: 1200px;
   margin: auto;
@@ -71,13 +72,41 @@ li a{
 }
 
 .padding-col{
-  padding: 10px 25px;
+  padding: 10px 30px;
+}
+
+/* HOVER */
+li a:not(.btn):hover{
+  color: lightblue;
+}
+
+li a:not(.btn):focus{
+  color: gray;
+}
+
+.btn:hover{
+  color: black;
+  background-color: #fff;
+}
+
+.btn:focus{
+  background-color: gray;
+}
+
+.btn-green:hover{
+  color: #fff;
+  background-color: orange;
+}
+
+.btn-green:focus{
+  background-color: gray;
 }
 
 /* HEADER */
 .header{
   background: #0c325a;
 }
+
 /* TOP HEADER */
 
 .top-header{
@@ -149,6 +178,7 @@ li a{
 }
 
 /* MAIN */
+
 /* SEZIONE GRIGIA */
 .lightgrey{
   background: #d3d3d3;
@@ -168,7 +198,6 @@ li a{
   width: calc(100%/3);
   text-align: center;
 }
-
 
 .col3 img{
   height: 150px;
@@ -205,9 +234,9 @@ li a{
   padding-left: 20px;
 }
 
-a{
+.mountain a{
   display: inline-block;
-  padding: 20px 0;
+  padding: 20px;
   color: #5d8bbf;
 }
 
