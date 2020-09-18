@@ -9,9 +9,10 @@ body{
 
 /* UTILITIES */
 h2{
+  color: black;
   font-weight: 500;
   padding-bottom: 20px;
-  font-size: 25px;
+  font-size: 26px;
 }
 
 p{
@@ -213,7 +214,7 @@ a{
 /* FOOTER */
 footer{
   color: #818181;
-  line-height: 134px;
+  line-height: 174px;
   vertical-align: middle;
 }
 
@@ -240,4 +241,16 @@ i{
 .underline a{
   color: #818181;
   padding: 0 0;
+}
+
+/* FIXED */
+.fixed{
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}
+
+.btn-fixed{
+  min-width: 0;
+  padding: 15px;
 }
