@@ -11,6 +11,7 @@ body{
 h2{
   font-weight: 500;
   padding-bottom: 20px;
+  font-size: 25px;
 }
 
 p{
@@ -53,6 +54,10 @@ p{
 
 .large{
   padding: 25px 20px;
+}
+
+.padding-col{
+  padding: 10px 25px;
 }
 
 /* HEADER */
@@ -150,10 +155,11 @@ p{
 
 /* SEZIONE INFO */
 .col3{
-  padding: 40px 20px;
+  padding: 40px 0px;
   width: calc(100%/3);
   text-align: center;
 }
+
 
 .col3 img{
   height: 150px;
@@ -172,4 +178,24 @@ p{
   margin: 25px auto;
   height: 1px;
   background: gray;
+}
+
+.info-section{
+  border-bottom: 1px solid #818181;
+}
+
+/* SEZIONE MOUNTAIN */
+.col2{
+  padding: 40px 20px;
+  width: 50%;
+}
+
+.col2 h2,
+.col2 p{
+  width: 70%;
+}
+
+a{
+  display: inline-block;
+  padding: 20px 0;
 }
